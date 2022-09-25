@@ -17,6 +17,6 @@
 
 
 Errors encounter:
-1. " sqlite3.OperationalError: no such table: patient_table"....
+1. " sqlite3.OperationalError: no such table: patient_table".... (located in screenshots folder)
 - Attempted to change .db path to absolute path, but did not resolve the issue
 - Encountered issue both on local machine and GCP

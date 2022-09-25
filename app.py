@@ -12,7 +12,7 @@
 
 from flask import Flask, render_template
 import sqlite3
-import os # operating system enables us to have access to underlying os 
+import os.path # operating system enables us to have access to underlying os 
 
 # create a new flask app
 app = Flask(__name__)
