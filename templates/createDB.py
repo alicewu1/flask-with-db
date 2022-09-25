@@ -1,7 +1,7 @@
 import sqlite3 # note, sqlite3 comes with python3
 
 # Connecting to SQLITE
-connect = sqlite3.connect('templates\patient.db')
+connect = sqlite3.connect(r"C:\Users\Lcw62\OneDrive\Documents\GitHub\flask-with-db\templates\patient.db")
 
 
 # db object - creates cursor used throughout db programming

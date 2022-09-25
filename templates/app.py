@@ -1,3 +1,15 @@
+## .SSH Terminal Setup Commands
+# sudo apt-get update
+# sudo apt install python3-pip
+# pip3 install Flask
+# git clone (repo URL)
+#cd to Part1_Remote_GCP
+# sudo python3 app.py
+# nano app.py to read/edit 
+# Ctrl + Z
+# bg
+# sudo nohup python3 app.py > log.txt 2>&1 &
+
 from flask import Flask, render_template
 import sqlite3
 import os # operating system enables us to have access to underlying os 

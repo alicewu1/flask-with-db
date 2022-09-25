@@ -1,11 +1,10 @@
 import sqlite3
 import pandas as pd
-import os.path
+import os
 
-db_path = os.path.join("patient.db")
 
 def get_db_connection():
-    conn = sqlite3.connect(r"C:\Users\Alice\Documents\GitHub\flask-with-db\templates\patient.db")
+    conn = sqlite3.connect(r"C:\Users\Lcw62\OneDrive\Documents\GitHub\flask-with-db\templates\patient.db")
     conn.row_factory = sqlite3.Row
     return conn
 
