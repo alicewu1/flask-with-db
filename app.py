@@ -6,7 +6,7 @@
 #cd to (location of app.py)
 # sudo python3 app.py
 # nano app.py to read/edit 
-# Ctrl + Z
+# Ctrl + Shift + Z
 # bg
 # sudo nohup python3 app.py > log.txt 2>&1 &
 
