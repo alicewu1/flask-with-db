@@ -1,6 +1,9 @@
 import sqlite3
 import pandas as pd
-import os
+from os.path import realpath
+
+DATABASE_NAME = realpath('patient.db')
+
 
 
 def get_db_connection():

@@ -3,7 +3,7 @@
 # sudo apt install python3-pip
 # pip3 install Flask
 # git clone (repo URL)
-#cd to Part1_Remote_GCP
+#cd to (location of app.py)
 # sudo python3 app.py
 # nano app.py to read/edit 
 # Ctrl + Z
@@ -12,14 +12,14 @@
 
 from flask import Flask, render_template
 import sqlite3
-import os.path # operating system enables us to have access to underlying os 
+import os # operating system enables us to have access to underlying os 
 
 # create a new flask app
 app = Flask(__name__)
 
 # create a function that will be called when the user accesses the root of the website
 def get_db_connection():
-    dir = os.getcwd() + 'patient.db'
+    dir = os.getcwd() + '/patient.db' # resolved operational error no such table by moving patient.db to main dir and addding / to patient.db
     print('dir:', dir)
     conn = sqlite3.connect(dir) # create a connection to the database
     conn.row_factory = sqlite3.Row # The line of code assigning sqlite3.Row to the row_factory of connection creates what some people call a 'dictionary cursor', - instead of tuples it starts returning 'dictionary' rows after fetchall or fetchone

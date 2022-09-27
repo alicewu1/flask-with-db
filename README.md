@@ -17,6 +17,7 @@
 
 
 Errors encounter:
-1. " sqlite3.OperationalError: no such table: patient_table".... (located in screenshots folder)
+1. [SOLVED]" sqlite3.OperationalError: no such table: patient_table".... (located in screenshots folder)
 - Attempted to change .db path to absolute path, but did not resolve the issue
 - Encountered issue both on local machine and GCP
+-To resolve the issue, I moved the patient.db from templates folder to main directory and including a / in patient.db in the app.py script
