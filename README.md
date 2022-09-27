@@ -4,6 +4,8 @@
 **This repo aims to: explores database management systems (DBMS) (storage, databases, querying)**
 - Connect Flask application to the local database created using SQLITE
 
+**GCP IP:** http://35.194.3.120/ 
+
 **Tasks:**
 1. Connect Flask to SQLITE
 2. Setup a local DBs on your machine(s) using SQLITE
@@ -14,10 +16,9 @@
 7. Within the patient-patients route, display the list of patients retrieve from the SQlite DB
 8. Deploy to Azure or GCP, insert in IP of machines in readme.md file in repo
 
-**GCP IP**: 35.194.3.120 
 
 
-Errors encounter:
+**Error encountered:**
 1. [SOLVED] "sqlite3.OperationalError: no such table: patient_table"
 - Attempted to change .db path to absolute path, but did not resolve the issue
 - Encountered issue both on local machine and GCP
