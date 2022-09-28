@@ -10,7 +10,7 @@
 1. Connect Flask to SQLITE
 2. Setup a local DBs on your machine(s) using SQLITE
 3. Create an SQLite DB that contains a patient table and a minimum of 4 additional columns for patient details beyond (MRN, first and last name, DOB)
-4. Create new patients/table using SQLalchemy
+4. Create new fake patients/table using SQLalchemy
 5. Create a file called createDB.py in your repo that contains the source code for how these patients were created
 6. Inside your flask app, create a new route called ‘/patients’
 7. Within the patient-patients route, display the list of patients retrieve from the SQLITE DB
